@@ -1,10 +1,11 @@
 :root {
-  --bg: #0b0c10;
-  --card: #11131a;
-  --muted: #9aa3b2;
-  --text: #f5f7fb;
-  --accent: #8b5cf6;
-  --accent-2: #22d3ee;
+  --bg: #f7f8ff;
+  --card: #ffffff;
+  --muted: #6f72a0;
+  --text: #1b1d3a;
+  --accent: #3f5bff;
+  --accent-2: #ff8a3d;
+  --outline: #d8dcff;
 }
 
 * {
@@ -39,7 +40,7 @@ body {
   padding: 6px 10px;
   border-radius: 999px;
   background: linear-gradient(90deg, var(--accent), var(--accent-2));
-  color: #061018;
+  color: #ffffff;
   font-weight: 600;
   font-size: 12px;
   width: max-content;
@@ -74,14 +75,15 @@ button,
 }
 
 .btn-primary {
-  background: linear-gradient(90deg, var(--accent), var(--accent-2));
-  color: #051018;
+  background: linear-gradient(90deg, var(--accent), #6b66ff);
+  color: #ffffff;
+  box-shadow: 0 8px 18px rgba(63, 91, 255, 0.25);
 }
 
 .btn-ghost {
-  background: transparent;
-  border: 1px solid #263041;
-  color: var(--text);
+  background: #ffffff;
+  border: 1px solid var(--outline);
+  color: var(--accent);
 }
 
 .grid {
@@ -92,16 +94,16 @@ button,
 }
 
 .card {
-  background: linear-gradient(180deg, #131625, #0e1018);
-  border: 1px solid #1e2635;
+  background: var(--card);
+  border: 1px solid var(--outline);
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 14px 30px rgba(102, 110, 255, 0.08);
 }
 
 .img {
   display: block;
-  background: #080a12;
+  background: #eef1ff;
   width: 100%;
   height: auto;
   object-fit: contain;
@@ -125,9 +127,9 @@ button,
   gap: 8px;
   border-radius: 10px;
   padding: 8px 10px;
-  background: #0b0e17;
-  border: 1px solid #232b3c;
-  color: var(--text);
+  background: rgba(63, 91, 255, 0.08);
+  border: 1px solid rgba(63, 91, 255, 0.2);
+  color: var(--accent);
 }
 
 .foot {
@@ -140,8 +142,8 @@ button,
 }
 
 input[type="email"] {
-  background: #0b0e17;
-  border: 1px solid #263041;
+  background: #ffffff;
+  border: 1px solid var(--outline);
   border-radius: 12px;
   padding: 10px 12px;
   color: var(--text);
