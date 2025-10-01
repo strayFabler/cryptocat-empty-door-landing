@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CryptoCat — Early Access</title>
+  <meta name="description" content="Preview CryptoCat prototypes, like your favorite concepts, and join the waitlist for early access." />
+  <link rel="preconnect" href="https://plausible.io">
+  <!-- Plausible (replace domain.tld with your domain) -->
+  <script defer data-domain="domain.tld" src="https://plausible.io/js/script.js"></script>
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+  <div class="container">
+    <span class="badge">Early Access</span>
+    <header class="hero">
+      <h1 class="title">CryptoCat helps you <span id="headline-variant">keep every chain and cat in one tidy dashboard</span> <span class="ab">(A/B)</span></h1>
+      <p class="subtitle">Explore the prototype screens below. Tap ❤️ on the ideas that resonate and hop on the waitlist so we know what to build first.</p>
+      <div class="cta-row">
+        <a href="https://tally.so/r/your-form" class="btn btn-primary" data-ev="cta_primary">Join the waitlist</a>
+        <a href="#screens" class="btn btn-ghost">Browse prototypes</a>
+      </div>
+    </header>
+
+    <section id="screens" class="grid" aria-label="Prototype gallery"></section>
+
+    <section class="foot">
+      <form id="wl" action="https://tally.so/r/your-form" method="get" onsubmit="handleSubmit(event)" style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+        <input required type="email" name="email" placeholder="you@example.com" />
+        <button class="btn btn-primary" type="submit" data-ev="cta_footer">Send me early access</button>
+      </form>
+      <p class="note">We respect your inbox. Expect only the essentials about launch day.</p>
+    </section>
+
+    <footer class="muted" style="margin-top:24px">© <span id="y"></span> CryptoCat</footer>
+  </div>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
