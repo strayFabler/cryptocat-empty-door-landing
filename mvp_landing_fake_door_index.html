@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CryptoCat — Early Access</title>
-  <meta name="description" content="Preview CryptoCat prototypes, like your favorite concepts, and join the waitlist for early access." />
+  <title>CryptoCat Academy — Early Access</title>
+  <meta name="description" content="Preview CryptoCat Academy lessons, pick the features you love, and claim an early access seat." />
   <link rel="preconnect" href="https://plausible.io">
   <!-- Plausible (replace domain.tld with your domain) -->
   <script defer data-domain="domain.tld" src="https://plausible.io/js/script.js"></script>
@@ -14,25 +14,61 @@
   <div class="container">
     <span class="badge">Early Access</span>
     <header class="hero">
-      <h1 class="title">CryptoCat helps you <span id="headline-variant">keep every chain and cat in one tidy dashboard</span> <span class="ab">(A/B)</span></h1>
-      <p class="subtitle">Explore the prototype screens below. Tap ❤️ on the ideas that resonate and hop on the waitlist so we know what to build first.</p>
+      <h1 class="title">CryptoCat Academy helps you <span id="headline-variant">learn crypto with fun, bite-sized cat lessons</span></h1>
+      <p class="subtitle">Vote on the lesson you want first — tap ❤️ and we’ll build your top picks next.</p>
       <div class="cta-row">
-        <a href="https://tally.so/r/your-form" class="btn btn-primary" data-ev="cta_primary">Join the waitlist</a>
-        <a href="#screens" class="btn btn-ghost">Browse prototypes</a>
+        <a href="https://tally.so/r/your-form" class="btn btn-primary" data-ev="cta_primary">Join early access</a>
+        <a href="#screens" class="btn btn-ghost">Preview lessons</a>
       </div>
     </header>
 
     <section id="screens" class="grid" aria-label="Prototype gallery"></section>
 
-    <section class="foot">
-      <form id="wl" action="https://tally.so/r/your-form" method="get" onsubmit="handleSubmit(event)" style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
-        <input required type="email" name="email" placeholder="you@example.com" />
-        <button class="btn btn-primary" type="submit" data-ev="cta_footer">Send me early access</button>
-      </form>
-      <p class="note">We respect your inbox. Expect only the essentials about launch day.</p>
+    <p class="note" style="margin:12px 0 0">These preview screens are our visual prototype—tap ❤️ on the ones you’d use so we know what to ship first.</p>
+
+    <section class="features" aria-label="Why learners love CryptoCat">
+      <h2 class="features-title">What you’ll explore in early access</h2>
+      <ul class="feature-list">
+        <li>
+          <span class="feature-icon">🎯</span>
+          <div>
+            <h3 class="feature-name">Daily lesson quests</h3>
+            <p class="feature-copy">Screens 1–3 show how tiny missions, streaks, and rewards keep learning bite-sized.</p>
+          </div>
+        </li>
+        <li>
+          <span class="feature-icon">🧭</span>
+          <div>
+            <h3 class="feature-name">Cat mentor paths</h3>
+            <p class="feature-copy">Dashboard and catalog previews hint at themed tracks like Security Sage or DeFi Explorer.</p>
+          </div>
+        </li>
+        <li>
+          <span class="feature-icon">🛡️</span>
+          <div>
+            <h3 class="feature-name">Risk-free sandbox</h3>
+            <p class="feature-copy">Progress cards outline how we plan to simulate trades and flag safety tips before you go live.</p>
+          </div>
+        </li>
+        <li>
+          <span class="feature-icon">📣</span>
+          <div>
+            <h3 class="feature-name">Emergency paw alerts</h3>
+            <p class="feature-copy">Account mockups tease friendly alerts translating market noise into “what to do next.”</p>
+          </div>
+        </li>
+      </ul>
     </section>
 
-    <footer class="muted" style="margin-top:24px">© <span id="y"></span> CryptoCat</footer>
+    <section class="foot">
+      <form id="wl" action="https://tally.so/r/your-form" method="get" onsubmit="handleSubmit(event)">
+        <input required type="email" name="email" placeholder="catlover@example.com" />
+        <button class="btn btn-primary" type="submit" data-ev="cta_footer">Join early access</button>
+      </form>
+      <p class="note">Launch updates, beta invites & a few cat puns. No spam.</p>
+    </section>
+
+    <footer class="muted" style="margin-top:24px">© <span id="y"></span> CryptoCat Academy</footer>
   </div>
 
   <script src="assets/js/main.js" defer></script>

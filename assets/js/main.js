@@ -3,19 +3,19 @@
   const AB_KEY = 'ab-variant';
 
   const screens = [
-    { id: 'wallet-overview', label: 'Wallet overview', alt: 'Wallet balance overview screen', asset: 'assets/images/1.png' },
-    { id: 'staking-rewards', label: 'Staking rewards', alt: 'Projected staking rewards concept', asset: 'assets/images/2.png' },
-    { id: 'cat-collections', label: 'Cat collections', alt: 'Collection of crypto cats grouped by traits', asset: 'assets/images/3.png' },
-    { id: 'trade-tracker', label: 'Trade tracker', alt: 'Trade tracker timeline screen', asset: 'assets/images/4.png' },
-    { id: 'alerts-center', label: 'Alerts center', alt: 'Notification center for key crypto events', asset: 'assets/images/5.png' },
-    { id: 'gas-optimizer', label: 'Gas optimizer', alt: 'Gas fee optimization recommendations', asset: 'assets/images/6.png' },
-    { id: 'multichain-bridge', label: 'Multichain bridge', alt: 'Multichain asset bridge flow', asset: 'assets/images/7.png' },
-    { id: 'team-dashboard', label: 'Team dashboard', alt: 'Team dashboard with shared insights', asset: 'assets/images/8.png' }
+    { id: 'onboarding-fun', label: 'Bite-sized crypto lessons', alt: 'Onboarding screen showing playful orange cat and bite-sized crypto learning headline', asset: 'assets/images/1.png' },
+    { id: 'habit-builder', label: 'Daily habit shield', alt: 'Illustration of shield and lock describing becoming crypto-smart in 10 minutes a day', asset: 'assets/images/2.png' },
+    { id: 'rewards-flow', label: 'Play. Learn. Earn.', alt: 'Gamified screen with bitcoin coins encouraging sign up and login', asset: 'assets/images/3.png' },
+    { id: 'sign-up', label: 'Sign-up form', alt: 'Email and password input screen for creating a CryptoCat account', asset: 'assets/images/4.png' },
+    { id: 'home-dashboard', label: 'Learning dashboard', alt: 'Home dashboard with progress bars and learning plan cards', asset: 'assets/images/5.png' },
+    { id: 'course-catalog', label: 'Course catalog', alt: 'Course listing view with categories like investing and security', asset: 'assets/images/6.png' },
+    { id: 'progress-tracker', label: 'Course progress tracker', alt: 'My courses screen with completion stats and play buttons', asset: 'assets/images/7.png' },
+    { id: 'account-settings', label: 'Account & favorites', alt: 'Account screen with cat avatar and navigation items', asset: 'assets/images/8.png' }
   ];
 
   const variants = {
-    A: 'keep every chain and cat in one tidy dashboard',
-    B: 'stay on top of your CryptoCat portfolio without tab overload'
+    A: 'learn crypto with fun, bite-sized cat lessons',
+    B: 'turn crypto chaos into cat-level fun'
   };
 
   let abChoice = null;
