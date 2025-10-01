@@ -93,6 +93,12 @@ button,
   margin: 18px 0 10px;
 }
 
+.show-more {
+  grid-column: 1 / -1;
+  justify-self: stretch;
+  text-align: center;
+}
+
 .card {
   background: var(--card);
   border: 1px solid var(--outline);
@@ -130,6 +136,12 @@ button,
   background: rgba(63, 91, 255, 0.08);
   border: 1px solid rgba(63, 91, 255, 0.2);
   color: var(--accent);
+}
+
+.like.liked {
+  background: linear-gradient(90deg, var(--accent), #6b66ff);
+  border-color: transparent;
+  color: #ffffff;
 }
 
 .foot {
